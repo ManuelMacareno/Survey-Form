@@ -1,0 +1,49 @@
+body {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+    background-color: #e0f7fa;
+    font-family: Arial, sans-serif;
+}
+
+#title {
+    text-align: center;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 1rem 5rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#description {
+    margin: 2rem;
+}
+
+label {
+    margin: 0.5rem;
+}
+
+textarea {
+    margin: 1rem 3rem;
+}
+
+#submit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 2.5rem;
+    margin: 0 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #0056b3;
+}
